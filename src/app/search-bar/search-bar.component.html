@@ -1,0 +1,12 @@
+<div  class="content">
+    <input type="text" name="search-bar" class="search-bar" (keyup)="sendData($event)">
+    <div class="section-results">
+        <a *ngFor="let suggestion of suggestions" 
+            class="suggestion-results" 
+            [routerLink]="['/', 'search-bar', suggestion.toLowerCase().replace(' ', '-')]" target="_blank"
+            (click)="chosenBrand(suggestion)"
+        >
+            {{suggestion}}
+        </a>
+    </div>
+</div>

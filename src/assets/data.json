@@ -1,0 +1,19 @@
+{
+    "results": [
+        {
+            "brand": "Audi" 
+        },
+        {
+            "brand": "Alfa Romeo"
+        },
+        {
+            "brand": "Fiat"
+        },
+        {
+            "brand": "SEAT"
+        },
+        {
+            "brand": "Tesla"
+        }
+    ]
+}
